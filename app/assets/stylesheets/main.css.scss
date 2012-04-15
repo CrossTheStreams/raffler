@@ -1,0 +1,41 @@
+// Place all the styles related to the main controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#container {
+
+  background-color: white;
+  padding: 20px;
+
+  margin: {
+  top:70px;
+  left:auto;
+  right:auto;
+  }
+
+  width:800px;
+  height: 600px;
+
+  h1 {text-align: center;}
+  li {
+  line-height: 52px;
+  border-bottom: 1px solid #333; 
+  }
+
+  form {
+    width:300px;
+    margin: {
+    left:auto;
+    right:auto;
+    top: 30px;
+    }
+  }
+
+  #draw {
+    width: 100px;
+    margin: {
+     top: 30px;
+    }
+  }
+
+}

@@ -1,0 +1,13 @@
+<h1>Raffler</h1>
+<form id="new_entry">
+  <input type="text" name="name" id="new_entry_name"></input>
+  <input type="submit" class="btn-success" value="Add"></input>
+</form>
+<ul>
+<% for entry in @entries.models: %>
+  <li><%= entry.get('name') %></li>
+<% end %>
+</ul>
+<div class="span2 offset4">
+<input type="submit" id="draw" value="Draw Winner" class="btn-success"></input>
+</div>
