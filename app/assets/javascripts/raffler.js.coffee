@@ -5,7 +5,7 @@ window.Raffler =
   Routers: {}
   init: -> 
           new Raffler.Routers.Entries
-          Backbone.history.start()
+          Backbone.history.start(pushState: true)
 
 $(document).ready ->
   Raffler.init()

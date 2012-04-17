@@ -5,6 +5,8 @@ Raffler::Application.routes.draw do
 
   root to: "main#index"
 
+  match '*path', to: 'main#index'
+
   get "/index" => "main#index" 
 
   # The priority is based upon order of creation:

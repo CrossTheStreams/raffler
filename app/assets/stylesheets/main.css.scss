@@ -13,17 +13,13 @@
   right:auto;
   }
 
-  width:800px;
+  width:750px;
   height: 600px;
 
   h1 {text-align: center;}
   li {
   line-height: 52px;
   border-bottom: 1px solid #333; 
-  }
-
-  span {
-    display:none;
   }
 
   form {
@@ -44,10 +40,14 @@
 
 }
 
-  .highlight {
-      display:show;
-      text-color: red;
-      font-weight:bold;
-    }
+.winner{
+  margin-right: 100px;
+  position: absolute;
+  right: 130px;
+}
 
-
+.highlight {
+  font-weight: bold;
+  font-size: 16px;
+  color: red;
+}
