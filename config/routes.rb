@@ -3,8 +3,6 @@ Raffler::Application.routes.draw do
     resources :entries
   end
 
-  resources :entries
-
   root to: "main#index"
 
   get "/index" => "main#index" 

@@ -22,6 +22,10 @@
   border-bottom: 1px solid #333; 
   }
 
+  span {
+    display:none;
+  }
+
   form {
     width:300px;
     margin: {
@@ -39,3 +43,11 @@
   }
 
 }
+
+  .highlight {
+      display:show;
+      text-color: red;
+      font-weight:bold;
+    }
+
+
